@@ -2,7 +2,7 @@
 #include <assert.h>
 #include "DataFromSensor.h"
 int Sensor1_Data[50];
-flaot Sensor2_Data[50];
+float Sensor2_Data[50];
 int main()
 { 
   for(int Data=50;Data>=0;Data--)
