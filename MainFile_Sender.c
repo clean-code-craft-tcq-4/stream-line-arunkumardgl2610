@@ -4,5 +4,6 @@ include <stdio.h>
 
 int main()
 { 
+  int k=0;
   DataReceiveFromSensor1();
 }
