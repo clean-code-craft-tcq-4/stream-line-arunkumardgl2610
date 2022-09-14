@@ -1,8 +1,9 @@
 
 int Battery_Health=0,Battery_Internal_Resistance;
 int Sensor1_Data[50];
-
-Void DataReceiveFromSensor1()
+void DataReceiveFromSensor1();
+int Sensor1DataAlgorithm(int Battery_Capacity);
+void DataReceiveFromSensor1()
 {
   for(int Data=50;Data<=0;Data-2)
   {
