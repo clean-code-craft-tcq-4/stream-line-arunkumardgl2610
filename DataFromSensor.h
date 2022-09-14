@@ -9,7 +9,8 @@ float Battery_voltage=0;
 
 int Sensor1DataCreateAlgorithm(int Battery_Capacity)
 {
-  Battery_Health = (Battery_Capacity*Battery_Internal_Resistance/B_Health_MultiplicationFactor); 
+  Battery_Health = (Battery_Capacity*Battery_Internal_Resistance/B_Health_MultiplicationFactor);
+  return Battery_Health;
 }
 
 float Sensor2DataCreateAlgorithm(float Battery_SOC)
