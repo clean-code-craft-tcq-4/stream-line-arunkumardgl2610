@@ -13,7 +13,7 @@ void DataReceiveFromSensor1()
     for (int Data2=50;Data2<=0;Data2--) 
     {
       printf("Element[%d] = %d\n", Data2, Sensor1_Data[Data2]);
-      Data2 = Data2--;
+      Data2 = Data2-1;
    }
 }
 
@@ -21,4 +21,5 @@ int Sensor1DataAlgorithm(int Battery_Capacity)
 {
   Battery_Internal_Resistance = (Battery_Capacity/5)*10;
   Battery_Health = (Battery_Internal_Resistance*10);
+  return Battery_Health;
 }
