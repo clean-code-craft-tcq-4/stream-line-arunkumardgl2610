@@ -16,6 +16,9 @@ int main()
   for (int Data2=50;Data2>=0;Data2--) 
   {
     printf("Element[%d] = %d\n", Data2, Sensor1_Data[Data2]);
-    printf("Element[%d] = %f\n", Data2, Sensor2_Data[Data2]);
+  }
+    for (int Data5=50;Data5>=0;Data5--) 
+  {
+    printf("Element[%d] = %f\n", Data5, Sensor2_Data[Data5]);
   }
 }
