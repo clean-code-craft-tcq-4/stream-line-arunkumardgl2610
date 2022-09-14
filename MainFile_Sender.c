@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <assert.h>
 #include "DataFromSensor.h"
-int Sensor1_Data[50];
+void DataReceiveFromSensor1();
+extern int Sensor1_Data[50];
 int main()
 { 
   DataReceiveFromSensor1();
