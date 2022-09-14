@@ -15,7 +15,7 @@ int main()
   }
   for (int Data2=50;Data2>=0;Data2--) 
   {
-    printf("Element[%d] = %d\n", Data2, Sensor1_Data[Data2]);
-    printf("Element[%d] = %f\n", Data2, Sensor2_Data[Data2]);
+    printf("Battery_Health[%d] = %d\n", Data2, Sensor1_Data[Data2]);
+    printf("Battery_Voltage[%d] = %f\n", Data2, Sensor2_Data[Data2]);
   }
 }
