@@ -1,21 +1,15 @@
 #include <stdio.h>
 #include <assert.h>
 #include "DataFromSensor.h"
-int Sensor1_Data[50];
-float Sensor2_Data[50];
+int Battery_Health_sensor1[50];
+float Battery_Voltage_sensor2[50];
 int main()
 { 
-  for(int Data=50;Data>=0;Data--)
+  for(int SOC=50; SOC>=0; SOC--)
   {
-    Sensor1_Data[Data] = Sensor1DataAlgorithm(Data);
-  }
-  for(int Data4=50;Data4>=0;Data4--)
-  {
-    Sensor2_Data[Data4] = Sensor2DataAlgorithm(Data4);
-  }
-  for (int Data2=50;Data2>=0;Data2--) 
-  {
-    printf("Battery_Health @SOC_%d% = %d\n", Data2, Sensor1_Data[Data2]);
-    printf("Battery_Voltage @SOC_%d% = %f\n", Data2, Sensor2_Data[Data2]);
+    Battery_Health_sensor1[SOC] = Sensor1DataCreateAlgorithm(SOC);
+    Battery_Voltage_sensor2[SOC] = Sensor2DataCreateAlgorithm(SOC);
+    printf("Battery_Health @SOC_%d% = %d\n", SOC, Sensor1_Data[SOC]);
+    printf("Battery_Voltage @SOC_%d% = %f\n", SOC, Sensor2_Data[SOC]);
   }
 }
