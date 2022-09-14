@@ -9,6 +9,6 @@ int Sensor1DataAlgorithm(int Battery_Capacity)
 
 float Sensor2DataAlgorithm(float Battery_SOC)
 {
-  Battery_voltage = (Battery_SOC*0.18)+63
+  Battery_voltage = (Battery_SOC*0.18)+63;
     return Battery_voltage;
 }
