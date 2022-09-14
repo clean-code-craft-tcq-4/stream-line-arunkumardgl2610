@@ -1,6 +1,6 @@
 #include <stdio.h>
 int Battery_Health=0,Battery_Internal_Resistance;
-extern int Sensor1_Data[50];
+int Sensor1_Data[50];
 void DataReceiveFromSensor1();
 int Sensor1DataAlgorithm(int Battery_Capacity);
 void DataReceiveFromSensor1()
