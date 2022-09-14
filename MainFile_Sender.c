@@ -5,4 +5,5 @@
 int main()
 { 
   DataReceiveFromSensor1();
+  printf("hello");
 }
