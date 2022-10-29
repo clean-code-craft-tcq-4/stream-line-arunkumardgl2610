@@ -41,7 +41,7 @@ namespace Receiver_TestFramework
         {       
            Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_1),Expected_Results_Average[0]);
            Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_2),Expected_Results_Average[1]);        
-           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_3),Expected_Results_Average[2);
+           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_3),Expected_Results_Average[2]);
            Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_4),Expected_Results_Average[3]);
            Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_5),Expected_Results_Average[4]);
            Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_6),Expected_Results_Average[5]);
