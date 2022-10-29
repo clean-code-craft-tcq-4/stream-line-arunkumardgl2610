@@ -33,7 +33,7 @@ jobs:
     - name: Run the Receiver app(Production code)
       run: dotnet run -p Sender_Reciever_Command_Line_Interface
     - name: Run tests
-      run: dotnet test -.\Receiver_TestFramework.sln
+      run: dotnet test .\Receiver_TestFramework.sln
     - name: Run tests and collect coverage
       run: dotnet test .\Receiver_TestFramework.sln --collect:"XPlat Code Coverage"
 
