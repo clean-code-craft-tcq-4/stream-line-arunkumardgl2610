@@ -34,13 +34,13 @@ namespace Receiver_TestFramework
         public void TestMethod_Find_Average()
 
         {       
-           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_1) == "7.8");
-           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_2) == "1");        
-           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_3) == "2");
-           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_4) == "3");
-           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_5) == "4");
-           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_6) == "0");
-           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_7) == "3");
+           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_1),"7.8");
+           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_2),"1");        
+           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_3),"2");
+           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_4),"3");
+           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_5),"4");
+           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_6),"0");
+           Assert.Equal(InstanceReceiver_Data.Find_Average(TestArray_7),"3");
 
         }
 
@@ -48,13 +48,13 @@ namespace Receiver_TestFramework
         public void TestMethod_Find_Maximum()
 
         {                    
-            Assert.Equal(InstanceReceiver_Data.Find_Maximum(TestArray_1) == "10");
-            Assert.Equal(InstanceReceiver_Data.Find_Maximum(TestArray_2) == "1");
-            Assert.Equal(InstanceReceiver_Data.Find_Maximum(TestArray_3) == "2");
-            Assert.Equal(InstanceReceiver_Data.Find_Maximum(TestArray_4) == "3");
-            Assert.Equal(InstanceReceiver_Data.Find_Maximum(TestArray_5) == "4");
-            Assert.Equal(InstanceReceiver_Data.Find_Maximum(TestArray_6) == "0");
-            Assert.Equal(InstanceReceiver_Data.Find_Maximum(TestArray_7) == "5");
+            Assert.Equal(InstanceReceiver_Data.Find_Maximum(TestArray_1),"10");
+            Assert.Equal(InstanceReceiver_Data.Find_Maximum(TestArray_2),"1");
+            Assert.Equal(InstanceReceiver_Data.Find_Maximum(TestArray_3),"2");
+            Assert.Equal(InstanceReceiver_Data.Find_Maximum(TestArray_4),"3");
+            Assert.Equal(InstanceReceiver_Data.Find_Maximum(TestArray_5),"4");
+            Assert.Equal(InstanceReceiver_Data.Find_Maximum(TestArray_6),"0");
+            Assert.Equal(InstanceReceiver_Data.Find_Maximum(TestArray_7),"5");
 
         }
 
@@ -62,13 +62,13 @@ namespace Receiver_TestFramework
         public void TestMethod_Find_Minimum()
 
         {
-            Assert.Equal(InstanceReceiver_Data.Find_Minimum(TestArray_1) == "1");
-            Assert.Equal(InstanceReceiver_Data.Find_Minimum(TestArray_2) == "1");
-            Assert.Equal(InstanceReceiver_Data.Find_Minimum(TestArray_3) == "2");
-            Assert.Equal(InstanceReceiver_Data.Find_Minimum(TestArray_4) == "3");
-            Assert.Equal(InstanceReceiver_Data.Find_Minimum(TestArray_5) == "4");
-            Assert.Equal(InstanceReceiver_Data.Find_Minimum(TestArray_6) == "0");
-            Assert.Equal(InstanceReceiver_Data.Find_Minimum(TestArray_7) == "1");
+            Assert.Equal(InstanceReceiver_Data.Find_Minimum(TestArray_1) , "1");
+            Assert.Equal(InstanceReceiver_Data.Find_Minimum(TestArray_2),"1");
+            Assert.Equal(InstanceReceiver_Data.Find_Minimum(TestArray_3) , "2");
+            Assert.Equal(InstanceReceiver_Data.Find_Minimum(TestArray_4) , "3");
+            Assert.Equal(InstanceReceiver_Data.Find_Minimum(TestArray_5) , "4");
+            Assert.Equal(InstanceReceiver_Data.Find_Minimum(TestArray_6) , "0");
+            Assert.Equal(InstanceReceiver_Data.Find_Minimum(TestArray_7) , "1");
 
         }
 
