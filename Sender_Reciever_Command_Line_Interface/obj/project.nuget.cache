@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+rR7xLLmSD6es19WxamHMG8FFMDEyQWcvql3wTUecTA/w5xXONzMsB4jHguKhhhB30/Yawf914/W1GCWdvFRFw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\act8kor\\Desktop\\Tcq\\Streame_line\\Receiver_Production_Code\\Sender_Reciever_Command_Line_Interface\\Sender_Reciever_Command_Line_Interface\\Sender_Reciever_Command_Line_Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\act8kor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.30\\microsoft.netcore.app.host.win-x64.3.1.30.nupkg.sha512"
+  ],
+  "logs": []
+}
