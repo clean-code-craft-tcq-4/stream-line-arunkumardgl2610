@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\act8kor\\Desktop\\Tcq\\Streame_line\\Receiver_TestFramework\\Receiver_TestFramework\\Receiver_TestFramework.csproj": {}
+    "C:\\Users\\act8kor\\Desktop\\Tcq\\Streame_line\\Receiver_Production_Code\\Final_Receiver\\Receiver_TestFramework\\Receiver_TestFramework\\Receiver_TestFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\act8kor\\Desktop\\Tcq\\Streame_line\\Receiver_TestFramework\\Receiver_TestFramework\\Receiver_TestFramework.csproj": {
+    "C:\\Users\\act8kor\\Desktop\\Tcq\\Streame_line\\Receiver_Production_Code\\Final_Receiver\\Receiver_TestFramework\\Receiver_TestFramework\\Receiver_TestFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\act8kor\\Desktop\\Tcq\\Streame_line\\Receiver_TestFramework\\Receiver_TestFramework\\Receiver_TestFramework.csproj",
+        "projectUniqueName": "C:\\Users\\act8kor\\Desktop\\Tcq\\Streame_line\\Receiver_Production_Code\\Final_Receiver\\Receiver_TestFramework\\Receiver_TestFramework\\Receiver_TestFramework.csproj",
         "projectName": "Receiver_TestFramework",
-        "projectPath": "C:\\Users\\act8kor\\Desktop\\Tcq\\Streame_line\\Receiver_TestFramework\\Receiver_TestFramework\\Receiver_TestFramework.csproj",
+        "projectPath": "C:\\Users\\act8kor\\Desktop\\Tcq\\Streame_line\\Receiver_Production_Code\\Final_Receiver\\Receiver_TestFramework\\Receiver_TestFramework\\Receiver_TestFramework.csproj",
         "packagesPath": "C:\\Users\\act8kor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\act8kor\\Desktop\\Tcq\\Streame_line\\Receiver_TestFramework\\Receiver_TestFramework\\obj\\",
+        "outputPath": "C:\\Users\\act8kor\\Desktop\\Tcq\\Streame_line\\Receiver_Production_Code\\Final_Receiver\\Receiver_TestFramework\\Receiver_TestFramework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\act8kor\\AppData\\Roaming\\NuGet\\NuGet.Config",

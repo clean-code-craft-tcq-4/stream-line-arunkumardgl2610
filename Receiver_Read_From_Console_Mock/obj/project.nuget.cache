@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AwsXnDaT4FahvF/PwCBYhr72mA0ls7p5gv/JPt5i5RAzJHJio6ffAXod4JKIBPHaoSk1UV20QStfb99fGruOIA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\act8kor\\Desktop\\Tcq\\Streame_line\\Receiver_Production_Code\\Final_Receiver\\Receiver_Read_From_Console_Mock\\Receiver_Read_From_Console_Mock\\Receiver_Read_From_Console_Mock.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\act8kor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.30\\microsoft.netcore.app.host.win-x64.3.1.30.nupkg.sha512"
+  ],
+  "logs": []
+}

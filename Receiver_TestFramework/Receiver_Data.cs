@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
@@ -56,6 +57,8 @@ namespace Receiver_TestFramework
             return Tuple.Create(Battery_SOC_Double, Battery_Temperature_Double);
         }
 
+
+
         public Tuple<double[], double[]> Battery_Data_Format_Converter(Tuple<double[], double[]> Stream_Line_Sender_Data)
         {
             double[] Battery_SOC_Double_Formatted = new double[50];
@@ -68,6 +71,38 @@ namespace Receiver_TestFramework
             return Tuple.Create(Battery_SOC_Double_Formatted, Battery_Temperature_Double_Formatted);
         }
 
-        
+        public string[] Commad_Line_Interface()
+        {
+            Process process = new Process();
+            process.StartInfo.FileName = "cmd.exe";
+            process.StartInfo.CreateNoWindow = true;
+            process.StartInfo.RedirectStandardInput = true;
+            process.StartInfo.RedirectStandardOutput = true;
+            process.StartInfo.UseShellExecute = false;
+            process.Start();
+            process.StandardInput.WriteLine("Sender_Production_Code|Receiver_Read_From_Console_Mock");        
+            process.StandardInput.Flush();
+            process.StandardInput.Close();            
+            int i = 0;
+            const int Max_Index = 200;
+            string[] Battery_Parameters = new string[Max_Index];          
+            
+            while (!process.StandardOutput.EndOfStream)
+            {
+                Battery_Parameters[i] = process.StandardOutput.ReadLine();
+                
+              
+                           
+                i = i + 1;
+                
+
+            }
+            
+            process.WaitForExit();
+           
+            return Battery_Parameters;
+        }
+
+
     }
 }
