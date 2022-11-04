@@ -34,7 +34,7 @@ jobs:
       run: dotnet run -p Sender_Reciever_Command_Line_Interface
       
     - name: Run tests and collect coverage
-      run: dotnet test ./Receiver_TestFramework/UnitTest1 --collect:"XPlat Code Coverage"
+      run: dotnet test ./Receiver_TestFramework/Receiver_TestFramework.csproj --collect:"XPlat Code Coverage"
 
     - name: Install coverage report generator
       run: dotnet tool install -g dotnet-reportgenerator-globaltool
