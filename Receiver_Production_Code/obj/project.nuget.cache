@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6V/J6RtInnHi/MjQKE1n0yq1DZH1qgeSVcL+flybd1fTLpErV5QYPqsTvWsdfSHI7Xs7xAlzUn1zKAzHwG9jGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\act8kor\\Desktop\\Tcq\\Streame_line\\Receiver_Production_Code\\Final_Receiver\\Receiver_Production_Code\\Receiver_Production_Code\\Receiver_Production_Code.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\act8kor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.30\\microsoft.netcore.app.host.win-x64.3.1.30.nupkg.sha512"
+  ],
+  "logs": []
+}
